@@ -1,7 +1,6 @@
 import { stripe } from '@/lib/stripe'
 import { SuccessContainer, ImageContainer } from '@/styles/pages/success'
 import { GetServerSideProps } from 'next'
-import { redirect } from 'next/dist/server/api-utils'
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
